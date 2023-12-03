@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/index.css">
+    <title>Calculater</title>
+</head>
+
+<body>
+    
+        
+            <h1 class="Font">Calculater</h1>
+    
+        <div id="middle">
+            <form action="">
+                <input id="ortalama" type="text">
+            </form>
+            <table>
+            
+                <tr>
+                    <td><button onclick="calculate(0)">0</button onclick="calculate()"></td>
+                    <td><button onclick="calculate(1)">1</button onclick="calculate()"></td>
+                    <td> <button onclick="calculate(2)">2</button onclick="calculate()"></td>
+                    <td><button onclick="calculate(3)">3</button onclick="calculate()"></td>
+                </tr>
+
+                <tr>
+                    <td><button onclick="calculate(4)">4</button onclick="calculate()"></td>
+                    <td> <button onclick="calculate(5)">5</button onclick="calculate()"></td>
+                    <td><button onclick="calculate(6)">6</button onclick="calculate()"></td>
+                    <td> <button onclick="calculate(7)">7</button onclick="calculate()"></td>
+                </tr>
+                
+                <tr>
+                    <td> <button onclick="calculate(8)">8</button onclick="calculate()"></td>
+                    <td><button onclick="calculate(9)">9</button onclick="calculate()"></td>
+                    <td><button onclick="calculate(0)">0</button onclick="calculate()"></td>
+                    <td> <button onclick="calculate('+')">+</button onclick="calculate()"></td>
+                </tr>
+
+                <tr>
+                    <td> <button onclick="calculate('-')">-</button onclick="calculate()"></td>
+
+                    <td> <button onclick="calculate('*')">*</button onclick="calculate()"> </td>
+                    <td><button onclick="calculate('/')">/</button onclick="calculate()"></td>
+                    <td><button onclick="Result('=')">=</button onclick="calculate()"></td>
+                </tr>
+                <tr>
+                    <td> <button onclick="del()">DEL</button onclick="del()"> </td>
+                    <td> <button onclick="clr()">CLEAR</button onclick="clr()"> </td>
+                </tr>
+
+            </table>
+        </div>
+      
+    <script src="/index.js"></script>
+</body>
+
+</html>

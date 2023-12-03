@@ -1,0 +1,41 @@
+#middle {
+    margin-left: 600px;
+    border-style: solid;
+    border-color: blueviolet;
+    border-width: 4px;
+    border-radius: 30px;
+    background-color:rgb(92, 225, 85);
+    width: 350px;
+    border: none !important;
+}
+
+.Font {
+    font-size:75px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 50px;
+    margin-left: 550px;
+    color:rgb(170, 101, 233);
+}
+.Font:hover { 
+    color:white;
+}
+body { 
+    background-color:darkblue;
+}
+
+button { 
+    color:aliceblue;
+    background-color:darkblue;
+    width: 75px;
+    height: 75px;
+    border-radius: 40px;
+}
+button:hover {
+    background-color: aliceblue;
+    color:black;
+}
+input {
+    width: 300px;
+    height: 50px;
+    border-radius: 30px;
+}
